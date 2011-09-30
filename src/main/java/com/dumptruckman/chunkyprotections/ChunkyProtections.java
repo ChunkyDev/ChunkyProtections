@@ -1,7 +1,6 @@
 package com.dumptruckman.chunkyprotections;
 
 import com.dumptruckman.chunkyprotections.config.Config;
-import com.dumptruckman.chunkyprotections.data.Data;
 import com.dumptruckman.chunkyprotections.locale.Language;
 import com.dumptruckman.chunkyprotections.util.Logging;
 import org.blockface.bukkitstats.CallHome;
@@ -18,9 +17,6 @@ public class ChunkyProtections extends JavaPlugin {
     private static ChunkyProtections instance = null;
 
     final public void onDisable() {
-        // Save the plugin data
-        Data.save(true);
-
         // Display disable message/version info
         Logging.info("disabled.", true);
     }
@@ -46,15 +42,6 @@ public class ChunkyProtections extends JavaPlugin {
             Language.load();
         } catch (IOException e) {  // Catch errors loading the language file and exit out if found.
             Logging.severe("Encountered an error while loading the language file.  Disabling...");
-            pm.disablePlugin(this);
-            return;
-        }
-
-        // Loads the data
-        try {
-            Data.load();
-        } catch (IOException e) {  // Catch errors loading the language file and exit out if found.
-            Logging.severe("Encountered an error while loading the data file.  Disabling...");
             pm.disablePlugin(this);
             return;
         }
