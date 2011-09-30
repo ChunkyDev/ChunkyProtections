@@ -1,9 +1,11 @@
 package com.dumptruckman.chunkyprotections;
 
 import com.dumptruckman.chunkyprotections.config.Config;
+import com.dumptruckman.chunkyprotections.listener.ChunkyProtectionsEntityListener;
 import com.dumptruckman.chunkyprotections.locale.Language;
 import com.dumptruckman.chunkyprotections.util.Logging;
 import org.blockface.bukkitstats.CallHome;
+import org.bukkit.event.Event;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -15,6 +17,8 @@ import java.io.IOException;
 public class ChunkyProtections extends JavaPlugin {
 
     private static ChunkyProtections instance = null;
+
+    private final ChunkyProtectionsEntityListener entityListener = new ChunkyProtectionsEntityListener();
 
     final public void onDisable() {
         // Display disable message/version info
@@ -66,6 +70,7 @@ public class ChunkyProtections extends JavaPlugin {
     final public void registerEvents() {
         final PluginManager pm = getServer().getPluginManager();
         // Event registering goes here
+        pm.registerEvent(Event.Type.ENTITY_EXPLODE, entityListener, Event.Priority.Highest, this);
     }
 
     public static ChunkyProtections getInstance() {
