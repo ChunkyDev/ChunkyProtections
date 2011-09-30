@@ -1,6 +1,6 @@
 name: ChunkyProtections
 main: org.getchunky.chunky.protections.ChunkyProtections
-version: ${version.number}-b${build.number}
+version: b${build.number}
 author: dumptruckman
 
 depends: [Chunky]

@@ -32,6 +32,9 @@ public class ChunkyProtections extends JavaPlugin {
         // Grab the PluginManager
         final PluginManager pm = getServer().getPluginManager();
 
+        // Load logger
+        Logging.load();
+
         // Checks for Chunky
         if (pm.getPlugin("Chunky") == null) {
             Logging.severe("Chunky not found!  Disabling...");

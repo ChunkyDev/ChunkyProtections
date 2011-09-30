@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.getchunky</groupId>
     <artifactId>ChunkyProtections</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>dev-SNAPSHOT</version>
     <name>ChunkyProtections</name>
   <repositories>
     <repository>
