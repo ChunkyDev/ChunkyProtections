@@ -1,6 +1,6 @@
-package com.dumptruckman.chunkyprotections.util;
+package org.getchunky.chunky.protections.util;
 
-import com.dumptruckman.chunkyprotections.ChunkyProtections;
+import org.getchunky.chunky.protections.ChunkyProtections;
 
 import java.io.*;
 import java.util.jar.JarFile;

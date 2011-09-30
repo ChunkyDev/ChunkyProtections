@@ -1,4 +1,4 @@
-package com.dumptruckman.chunkyprotections.permission;
+package org.getchunky.chunky.protections.permission;
 
 import org.bukkit.command.CommandSender;
 import org.bukkit.permissions.Permission;

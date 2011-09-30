@@ -1,4 +1,4 @@
-package com.dumptruckman.chunkyprotections.config;
+package org.getchunky.chunky.protections.config;
 
 import org.bukkit.util.config.Configuration;
 

@@ -1,6 +1,6 @@
-name: PluginTemplate
-main: com.dumptruckman.plugintemplate.TemplatePlugin
-version: b${build.number}
+name: ChunkyProtections
+main: org.getchunky.chunky.protections.ChunkyProtections
+version: ${version.number}-b${build.number}
 author: dumptruckman
 
 depends: [Chunky]

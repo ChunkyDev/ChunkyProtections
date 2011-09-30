@@ -1,4 +1,4 @@
-package com.dumptruckman.chunkyprotections.locale;
+package org.getchunky.chunky.protections.locale;
 
 import java.util.ArrayList;
 import java.util.HashMap;

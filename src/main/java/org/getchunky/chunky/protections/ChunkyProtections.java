@@ -1,9 +1,9 @@
-package com.dumptruckman.chunkyprotections;
+package org.getchunky.chunky.protections;
 
-import com.dumptruckman.chunkyprotections.config.Config;
-import com.dumptruckman.chunkyprotections.listener.ChunkyProtectionsEntityListener;
-import com.dumptruckman.chunkyprotections.locale.Language;
-import com.dumptruckman.chunkyprotections.util.Logging;
+import org.getchunky.chunky.protections.config.Config;
+import org.getchunky.chunky.protections.listener.ChunkyProtectionsEntityListener;
+import org.getchunky.chunky.protections.locale.Language;
+import org.getchunky.chunky.protections.util.Logging;
 import org.blockface.bukkitstats.CallHome;
 import org.bukkit.event.Event;
 import org.bukkit.plugin.PluginManager;

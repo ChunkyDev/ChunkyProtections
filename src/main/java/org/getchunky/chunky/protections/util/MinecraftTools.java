@@ -1,4 +1,4 @@
-package com.dumptruckman.chunkyprotections.util;
+package org.getchunky.chunky.protections.util;
 
 /**
  * @author dumptruckman

@@ -1,4 +1,4 @@
-package com.dumptruckman.chunkyprotections.listener;
+package org.getchunky.chunky.protections.listener;
 
 import com.dumptruckman.chunky.ChunkyManager;
 import com.dumptruckman.chunky.object.ChunkyChunk;
@@ -6,17 +6,11 @@ import com.dumptruckman.chunky.object.ChunkyPlayer;
 import com.dumptruckman.chunky.permission.ChunkyAccessLevel;
 import com.dumptruckman.chunky.permission.ChunkyPermissionChain;
 import com.dumptruckman.chunky.permission.ChunkyPermissions;
-import com.dumptruckman.chunkyprotections.ChunkyProtections;
-import com.dumptruckman.chunkyprotections.permission.Perm;
-import org.bukkit.block.Block;
-import org.bukkit.block.Sign;
+import org.getchunky.chunky.protections.permission.Perm;
 import org.bukkit.entity.Monster;
 import org.bukkit.entity.Player;
 import org.bukkit.event.entity.EntityExplodeEvent;
 import org.bukkit.event.entity.EntityListener;
-
-import java.util.ArrayList;
-import java.util.List;
 
 /**
  * @author dumptruckman

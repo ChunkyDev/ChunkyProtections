@@ -1,6 +1,6 @@
-package com.dumptruckman.chunkyprotections.config;
+package org.getchunky.chunky.protections.config;
 
-import com.dumptruckman.chunkyprotections.ChunkyProtections;
+import org.getchunky.chunky.protections.ChunkyProtections;
 
 import java.io.File;
 import java.io.IOException;
