@@ -120,7 +120,7 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>com.dumptruckman</groupId>
+      <groupId>org.getchunky</groupId>
       <artifactId>Chunky</artifactId>
       <version>Afghan-SNAPSHOT</version>
       <type>jar</type>
