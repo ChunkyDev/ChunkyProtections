@@ -2,3 +2,5 @@ name: PluginTemplate
 main: com.dumptruckman.plugintemplate.TemplatePlugin
 version: b${build.number}
 author: dumptruckman
+
+depends: [Chunky]

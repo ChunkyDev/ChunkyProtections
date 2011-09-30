@@ -119,5 +119,12 @@
       <type>jar</type>
       <scope>compile</scope>
     </dependency>
+    <dependency>
+      <groupId>com.dumptruckman</groupId>
+      <artifactId>Chunky</artifactId>
+      <version>Afghan-SNAPSHOT</version>
+      <type>jar</type>
+      <scope>compile</scope>
+    </dependency>
   </dependencies>
 </project>
