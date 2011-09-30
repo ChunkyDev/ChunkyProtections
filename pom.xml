@@ -57,7 +57,7 @@
         <directory>${basedir}/src/main/resources/</directory>
         <includes>
           <include>plugin.yml</include>
-          <include>items.csv</include>
+          <include>english.yml</include>
         </includes>
       </resource>
     </resources>
