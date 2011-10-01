@@ -1,11 +1,11 @@
 package org.getchunky.chunky.protections.listener;
 
-import com.dumptruckman.chunky.ChunkyManager;
-import com.dumptruckman.chunky.object.ChunkyChunk;
-import com.dumptruckman.chunky.object.ChunkyPlayer;
-import com.dumptruckman.chunky.permission.ChunkyAccessLevel;
-import com.dumptruckman.chunky.permission.ChunkyPermissionChain;
-import com.dumptruckman.chunky.permission.ChunkyPermissions;
+import org.getchunky.chunky.ChunkyManager;
+import org.getchunky.chunky.object.ChunkyChunk;
+import org.getchunky.chunky.object.ChunkyPlayer;
+import org.getchunky.chunky.permission.ChunkyAccessLevel;
+import org.getchunky.chunky.permission.ChunkyPermissionChain;
+import org.getchunky.chunky.permission.ChunkyPermissions;
 import org.getchunky.chunky.protections.permission.Perm;
 import org.bukkit.entity.Monster;
 import org.bukkit.entity.Player;
