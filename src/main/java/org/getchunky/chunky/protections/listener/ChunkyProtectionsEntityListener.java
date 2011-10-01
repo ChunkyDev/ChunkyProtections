@@ -11,6 +11,7 @@ import org.bukkit.entity.Monster;
 import org.bukkit.entity.Player;
 import org.bukkit.event.entity.EntityExplodeEvent;
 import org.bukkit.event.entity.EntityListener;
+import org.getchunky.chunky.protections.util.Logging;
 
 /**
  * @author dumptruckman
@@ -35,6 +36,7 @@ public class ChunkyProtectionsEntityListener extends EntityListener {
         ChunkyChunk cChunk = cPlayer.getCurrentChunk();
         ChunkyAccessLevel access = ChunkyAccessLevel.NONE;
         boolean hasPerm = ChunkyPermissionChain.hasPerm(cChunk, cPlayer, ChunkyPermissions.Flags.DESTROY, access);
+        Logging.debug("Exploding monster targeting: " + player.getName() + " on land they " + (hasPerm ? "may" : "may not") + "destroy.");
         if (!hasPerm) {
             event.setCancelled(true);
         }

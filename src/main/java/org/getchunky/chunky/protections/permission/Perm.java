@@ -10,7 +10,7 @@ import org.bukkit.plugin.java.JavaPlugin;
  * @author dumptruckman
  */
 public enum Perm {
-    CREEPER_GRIEF (new Permission("chunky.protections.grief.creeper", PermissionDefault.OP)),
+    CREEPER_GRIEF (new Permission("chunky.protections.grief.creeper", PermissionDefault.TRUE)),
     ;
 
     private Permission perm;
