@@ -12,6 +12,10 @@ public enum Config {
     LANGUAGE_FILE_NAME("settings.language_file", "english.yml", "# This is the language file you wish to use."),
     DEBUG_MODE("settings.debug_mode.enable", false, "# Enables debug mode."),
     DATA_SAVE_PERIOD("settings.data.save_every", 300, "# This is often plugin data is written to the disk."),
+
+    TNT_RESTRICT("griefing.tnt_restriction", true,
+            "# This will cause TNT not lit by flint and steel to not break blocks.",
+            "# TNT lit by flint and steel will only break blocks if the user has destroy permissions where it lands."),
     ;
 
     private String path;
