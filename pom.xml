@@ -15,11 +15,6 @@
       <name>Blockface</name>
       <url>http://repo.blockface.org/repository</url>
     </repository>
-    <repository>
-      <id>spout</id>
-      <name>Spout</name>
-      <url>http://repo.getspout.org</url>
-    </repository>
   </repositories>
   <build>
     <plugins>
