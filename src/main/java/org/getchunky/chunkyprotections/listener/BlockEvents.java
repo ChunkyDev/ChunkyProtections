@@ -1,12 +1,12 @@
-package org.getchunky.chunky.protections.listener;
+package org.getchunky.chunkyprotections.listener;
 
 import org.bukkit.Material;
 import org.bukkit.event.block.BlockIgniteEvent;
 import org.bukkit.event.block.BlockListener;
 import org.bukkit.event.block.BlockPlaceEvent;
-import org.getchunky.chunky.protections.ProtectionsManager;
-import org.getchunky.chunky.protections.config.Config;
-import org.getchunky.chunky.protections.util.Logging;
+import org.getchunky.chunkyprotections.ProtectionsManager;
+import org.getchunky.chunkyprotections.config.Config;
+import org.getchunky.chunkyprotections.util.Logging;
 
 /**
  * @author dumptruckman, SwearWord

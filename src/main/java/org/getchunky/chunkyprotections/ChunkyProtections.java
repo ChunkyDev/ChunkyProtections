@@ -1,11 +1,11 @@
-package org.getchunky.chunky.protections;
+package org.getchunky.chunkyprotections;
 
-import org.getchunky.chunky.protections.config.Config;
-import org.getchunky.chunky.protections.listener.BlockEvents;
-import org.getchunky.chunky.protections.listener.EntityEvents;
-import org.getchunky.chunky.protections.listener.PlayerEvents;
-import org.getchunky.chunky.protections.locale.Language;
-import org.getchunky.chunky.protections.util.Logging;
+import org.getchunky.chunkyprotections.config.Config;
+import org.getchunky.chunkyprotections.listener.BlockEvents;
+import org.getchunky.chunkyprotections.listener.EntityEvents;
+import org.getchunky.chunkyprotections.listener.PlayerEvents;
+import org.getchunky.chunkyprotections.locale.Language;
+import org.getchunky.chunkyprotections.util.Logging;
 import org.blockface.bukkitstats.CallHome;
 import org.bukkit.event.Event;
 import org.bukkit.plugin.PluginManager;

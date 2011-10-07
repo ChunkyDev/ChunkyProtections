@@ -1,4 +1,4 @@
-package org.getchunky.chunky.protections.listener;
+package org.getchunky.chunkyprotections.listener;
 
 import org.bukkit.Material;
 import org.bukkit.block.Block;
@@ -10,14 +10,14 @@ import org.getchunky.chunky.object.ChunkyChunk;
 import org.getchunky.chunky.object.ChunkyPlayer;
 import org.getchunky.chunky.permission.AccessLevel;
 import org.getchunky.chunky.permission.PermissionChain;
-import org.getchunky.chunky.protections.ProtectionsManager;
-import org.getchunky.chunky.protections.config.Config;
-import org.getchunky.chunky.protections.permission.Perm;
+import org.getchunky.chunkyprotections.ProtectionsManager;
+import org.getchunky.chunkyprotections.config.Config;
+import org.getchunky.chunkyprotections.permission.Perm;
 import org.bukkit.entity.Monster;
 import org.bukkit.entity.Player;
 import org.bukkit.event.entity.EntityExplodeEvent;
 import org.bukkit.event.entity.EntityListener;
-import org.getchunky.chunky.protections.util.Logging;
+import org.getchunky.chunkyprotections.util.Logging;
 
 /**
  * @author dumptruckman

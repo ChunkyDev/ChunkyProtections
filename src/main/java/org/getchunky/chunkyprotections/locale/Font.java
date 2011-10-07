@@ -1,4 +1,4 @@
-package org.getchunky.chunky.protections.locale;
+package org.getchunky.chunkyprotections.locale;
 
 import java.util.ArrayList;
 import java.util.HashMap;

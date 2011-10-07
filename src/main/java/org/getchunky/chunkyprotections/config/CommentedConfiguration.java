@@ -1,4 +1,4 @@
-package org.getchunky.chunky.protections.config;
+package org.getchunky.chunkyprotections.config;
 
 import org.bukkit.util.config.Configuration;
 

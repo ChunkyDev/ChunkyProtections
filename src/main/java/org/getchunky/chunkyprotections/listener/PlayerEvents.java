@@ -1,10 +1,10 @@
-package org.getchunky.chunky.protections.listener;
+package org.getchunky.chunkyprotections.listener;
 
 import org.bukkit.Material;
 import org.bukkit.event.player.PlayerInteractEvent;
 import org.bukkit.event.player.PlayerListener;
-import org.getchunky.chunky.protections.ProtectionsManager;
-import org.getchunky.chunky.protections.config.Config;
+import org.getchunky.chunkyprotections.ProtectionsManager;
+import org.getchunky.chunkyprotections.config.Config;
 
 /**
  * @author dumptruckman, SwearWord

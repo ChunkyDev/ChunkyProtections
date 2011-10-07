@@ -1,6 +1,6 @@
-package org.getchunky.chunky.protections.config;
+package org.getchunky.chunkyprotections.config;
 
-import org.getchunky.chunky.protections.ChunkyProtections;
+import org.getchunky.chunkyprotections.ChunkyProtections;
 
 import java.io.File;
 import java.io.IOException;

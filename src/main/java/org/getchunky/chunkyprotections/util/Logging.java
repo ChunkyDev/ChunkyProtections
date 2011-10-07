@@ -1,7 +1,7 @@
-package org.getchunky.chunky.protections.util;
+package org.getchunky.chunkyprotections.util;
 
-import org.getchunky.chunky.protections.ChunkyProtections;
-import org.getchunky.chunky.protections.config.Config;
+import org.getchunky.chunkyprotections.ChunkyProtections;
+import org.getchunky.chunkyprotections.config.Config;
 import org.bukkit.plugin.PluginDescriptionFile;
 
 import java.util.logging.Logger;

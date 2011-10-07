@@ -1,4 +1,4 @@
-package org.getchunky.chunky.protections;
+package org.getchunky.chunkyprotections;
 
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
@@ -6,9 +6,9 @@ import org.bukkit.block.Block;
 import org.bukkit.block.BlockFace;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
-import org.getchunky.chunky.protections.config.Config;
-import org.getchunky.chunky.protections.permission.Perm;
-import org.getchunky.chunky.protections.util.Logging;
+import org.getchunky.chunkyprotections.config.Config;
+import org.getchunky.chunkyprotections.permission.Perm;
+import org.getchunky.chunkyprotections.util.Logging;
 
 import java.util.HashMap;
 import java.util.List;

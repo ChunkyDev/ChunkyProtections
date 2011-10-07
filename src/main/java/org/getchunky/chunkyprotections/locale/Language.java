@@ -1,9 +1,9 @@
-package org.getchunky.chunky.protections.locale;
+package org.getchunky.chunkyprotections.locale;
 
-import org.getchunky.chunky.protections.ChunkyProtections;
-import org.getchunky.chunky.protections.config.Config;
-import org.getchunky.chunky.protections.util.Logging;
-import org.getchunky.chunky.protections.util.PluginTools;
+import org.getchunky.chunkyprotections.ChunkyProtections;
+import org.getchunky.chunkyprotections.config.Config;
+import org.getchunky.chunkyprotections.util.Logging;
+import org.getchunky.chunkyprotections.util.PluginTools;
 import org.bukkit.ChatColor;
 import org.bukkit.command.CommandSender;
 import org.bukkit.util.config.Configuration;

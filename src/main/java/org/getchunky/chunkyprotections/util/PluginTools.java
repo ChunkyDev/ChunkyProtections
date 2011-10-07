@@ -1,6 +1,6 @@
-package org.getchunky.chunky.protections.util;
+package org.getchunky.chunkyprotections.util;
 
-import org.getchunky.chunky.protections.ChunkyProtections;
+import org.getchunky.chunkyprotections.ChunkyProtections;
 
 import java.io.*;
 import java.util.jar.JarFile;
