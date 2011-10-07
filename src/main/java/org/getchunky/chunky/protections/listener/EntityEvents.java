@@ -5,11 +5,11 @@ import org.bukkit.block.Block;
 import org.bukkit.entity.TNTPrimed;
 import org.bukkit.event.entity.ExplosionPrimeEvent;
 import org.getchunky.chunky.ChunkyManager;
+import org.getchunky.chunky.module.ChunkyPermissions;
 import org.getchunky.chunky.object.ChunkyChunk;
 import org.getchunky.chunky.object.ChunkyPlayer;
-import org.getchunky.chunky.permission.ChunkyAccessLevel;
-import org.getchunky.chunky.permission.ChunkyPermissionChain;
-import org.getchunky.chunky.permission.ChunkyPermissions;
+import org.getchunky.chunky.permission.AccessLevel;
+import org.getchunky.chunky.permission.PermissionChain;
 import org.getchunky.chunky.protections.ProtectionsManager;
 import org.getchunky.chunky.protections.config.Config;
 import org.getchunky.chunky.protections.permission.Perm;
@@ -53,7 +53,7 @@ public class EntityEvents extends EntityListener {
         
         ChunkyPlayer cPlayer = ChunkyManager.getChunkyPlayer(player);
         ChunkyChunk cChunk = cPlayer.getCurrentChunk();
-        ChunkyAccessLevel access = ChunkyPermissionChain.hasPerm(cChunk, cPlayer, ChunkyPermissions.Flags.DESTROY);
+        AccessLevel access = PermissionChain.hasPerm(cChunk, cPlayer, ChunkyPermissions.DESTROY);
         Logging.debug("Exploding monster targeting: " + player.getName() + " on land they " + (!access.causedDenial() ? "may" : "may not") + " destroy.");
         if (access.causedDenial()) {
             event.setCancelled(true);
@@ -79,7 +79,7 @@ public class EntityEvents extends EntityListener {
                 ProtectionsManager.getLitTntBlocks().put(block, player);
             }
             ChunkyChunk cChunk = ChunkyManager.getChunk(block);
-            ChunkyAccessLevel access = ChunkyPermissionChain.hasPerm(cChunk, cPlayer, ChunkyPermissions.Flags.DESTROY);
+            AccessLevel access = PermissionChain.hasPerm(cChunk, cPlayer, ChunkyPermissions.DESTROY);
             if (access.causedDenial()) {
                 Logging.debug("Exploding tnt by: " + player.getName() + " on land they may not destroy.");
                 event.setCancelled(true);
