@@ -78,7 +78,7 @@ public class EntityEvents extends EntityListener {
             if (block.getType() == Material.TNT) {
                 ProtectionsManager.getLitTntBlocks().put(block, player);
             }
-            ChunkyChunk cChunk = ChunkyManager.getChunk(block);
+            ChunkyChunk cChunk = ChunkyManager.getChunkyChunk(block);
             AccessLevel access = PermissionChain.hasPerm(cChunk, cPlayer, ChunkyPermissions.DESTROY);
             if (access.causedDenial()) {
                 Logging.debug("Exploding tnt by: " + player.getName() + " on land they may not destroy.");
