@@ -1,5 +1,5 @@
 name: ChunkyProtections
-main: org.getchunky.chunky.protections.ChunkyProtections
+main: org.getchunky.chunkyprotections.ChunkyProtections
 version: b${build.number}
 author: dumptruckman
 
