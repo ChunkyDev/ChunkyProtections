@@ -3,7 +3,7 @@ main: org.getchunky.chunky.protections.ChunkyProtections
 version: b${build.number}
 author: dumptruckman
 
-depends: [Chunky]
+depend: [Chunky]
 
 permissions:
     chunky.grief.creeper:
